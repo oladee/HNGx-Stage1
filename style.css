@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    padding: 10px;
+}
+
+[data-testid="slackDisplayImage"]{
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+[data-testid="myTrack"]{
+    margin-bottom: 10px;
+}
+[data-testid=“githubURL”] a{
+    background-color: aquamarine;
+    padding: 5px;
+}
